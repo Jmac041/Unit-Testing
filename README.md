@@ -11,3 +11,9 @@ Structure the local database as it appears in the images in the images folder (t
 3. Make the following changes to the Controller/UserController file: Alter the loginAction function - remove the line "$strErrorHeader = 'HTTP/1.1 401 Unauthorized';"
 4. Add additional 'testing' file in root directory, which will include the StackTest.php file
 5. There are alterations to the test functions in what response codes they should recieve based on the existing backend code. testPost_LoginUser is 200 instead of 201. testPost_FailedLogin is 200 instead of 201. testPost_DeleteSong is 204 instead of 200. 
+
+
+## Problem 6
+For this, we used ChatGPT as a source of generative AI to create unique test cases for both the frontend and backend. <br>
+1. For the frontend,
+2. For the backend, we did so by providing the entire 'StackTest.php' file and asking it to "create new test cases for usercreate, songcreate, and songupdate following the same structure." 
