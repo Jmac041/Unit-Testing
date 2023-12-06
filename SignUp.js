@@ -27,9 +27,9 @@ function SignUp({ onSignUp }) {
 
       if (response.data.success) {
         toast.success('Signup successful! Please log in', {      
-        position: 'top-right', // Adjust the position as needed
-        autoClose: 3000, // Notification will close after 3 seconds
-      });
+          position: 'top-right', // Adjust the position as needed
+          autoClose: 3000, // Notification will close after 3 seconds
+        });
         setUsername(''); // Clear the username input
         setPassword(''); // Clear the password input
         setConfirmPassword(''); // Clear the confirm password input
@@ -39,14 +39,14 @@ function SignUp({ onSignUp }) {
         toast.error('Error creating account', {      
           position: 'top-right', // Adjust the position as needed
           autoClose: 3000, // Notification will close after 3 seconds
-        })
+        });
       }
     } catch (err) {
       console.error('There was an error creating an account:', err);
       toast.error('Username already exists', {      
         position: 'top-right', // Adjust the position as needed
         autoClose: 3000, // Notification will close after 3 seconds
-      })
+      });
     }
   };
 
@@ -60,6 +60,7 @@ function SignUp({ onSignUp }) {
           <input
             type="text"
             id="username"
+            data-testid="username-input" // Added data-testid
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
@@ -70,6 +71,7 @@ function SignUp({ onSignUp }) {
           <input
             type="password"
             id="password"
+            data-testid="password-input" // Added data-testid
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -80,6 +82,7 @@ function SignUp({ onSignUp }) {
           <input
             type="password"
             id="confirmPassword"
+            data-testid="confirm-password-input" // Added data-testid
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
             required
