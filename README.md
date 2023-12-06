@@ -2,6 +2,8 @@
 Jackson and Naomy's fifth homework assignment in COMP333. This includes files for Unit Testing and Continuous Integration. Much of the testing involves the code from hw3. 
 Work Split: 50/50
 
+The latest update to this project was made at 2:00 PM by Naomy Chepngeno. Jackson completed the parts he was assigned before the 10:00 AM deadline. Unfortunately, laptop issues prevented me from completing my tasks on time and approving Jackson's pull requests until noon.
+
 ## Database
 Structure the local database as it appears in the images in the images folder (the only difference is an iditional 'id' column in users_table that works as a primary key)
 
