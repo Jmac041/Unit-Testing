@@ -14,6 +14,6 @@ Structure the local database as it appears in the images in the images folder (t
 
 
 ## Problem 6
-For this, we used ChatGPT as a source of generative AI to create unique test cases for both the frontend and backend. 
-1.
+For this, we used ChatGPT as a source of generative AI to create unique test cases for both the frontend and backend. <br>
+1. For the frontend,
 2. For the backend, we did so by providing the entire 'StackTest.php' file and asking it to "create new test cases for usercreate, songcreate, and songupdate following the same structure." 
