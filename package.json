@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-notifications": "^1.7.4",
+    "react-router-dom": "^6.0.0", 
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
@@ -42,8 +43,9 @@
       "/node_modules/(?!axios).+\\.js$"
     ],
     "moduleNameMapper": {
-    "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMock.js"
-  }
+      "\\.(css|less|scss|sass)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "testEnvironment": "jsdom" 
   },
   "babel": {
     "presets": [
@@ -51,16 +53,15 @@
       "@babel/preset-react"
     ]
   },
- "devDependencies": {
-  "@babel/core": "^7.23.5",
-  "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-  "@babel/preset-env": "^7.23.5",
-  "@babel/preset-react": "^7.0.0",
-  "@testing-library/jest-dom": "^5.17.0",
-  "@testing-library/react": "^14.1.2",
-  "@testing-library/user-event": "^14.5.1",
-  "babel-jest": "^29.7.0",
-  "jest": "^27.5.1"
-}
-
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "babel-jest": "^29.7.0",
+    "jest": "^27.5.1"
+  }
 }
