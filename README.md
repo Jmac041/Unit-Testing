@@ -7,6 +7,12 @@ The latest update to this project was made at 2:00 PM by Naomy Chepngeno. Jackso
 ## Database
 Structure the local database as it appears in the images in the images folder (the only difference is an iditional 'id' column in users_table that works as a primary key)
 
+## Problem 2
+To setup and run the tests in pytest: <br>
+1. Install pytest with 'pip install -U pytest' (or 'pip3 install pytest')
+2. Open terminal in directory of unit_testing_pytest.py
+3. Run 'pytest unit_testing_pytest.py' or 'pytest unit_testing_pytest.py -v' for a more verbose response
+
 ## Problem 3
 1. Follow the instructions from the testing tutorial in https://sebastianzimmeck.de/teaching/comp333/comp333.html to set up the PHPUnit testing environment
 2. Include all backend files from https://github.com/Jmac041/MusicRaterApp in local htdocs folder
@@ -75,6 +81,4 @@ Finally save changes and run yarn test or npm test to the registration files
 
 
 ## Problem 6
-For this, we used ChatGPT as a source of generative AI to create unique test cases for both the frontend and backend. <br>
-1. For the frontend,
-2. For the backend, we did so by providing the entire 'StackTest.php' file and asking it to "create new test cases for usercreate, songcreate, and songupdate following the same structure." 
+For this, we used ChatGPT as a source of generative AI to create unique test cases for the backend. We did so by providing the entire 'StackTest.php' file and asking it to "create new test cases for usercreate, songcreate, and songupdate following the same structure." ChatGPT successfully mimiced the structure of the tests and provided functional test cases. 
